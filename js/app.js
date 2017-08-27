@@ -7,14 +7,15 @@ Also don't forget to run your live-server for this assignment.*/
 
 Rating: 5 Stars*/
 
+var rating1 = window.document.getElementById("rating1").innerHTML = "5 Stars";
 
 //2. Sunrise Restaurant
 /*No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Bring in some sunshine by changing the price and address to the following:
 
 Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
-
-
+var price2 = window.document.getElementById("price2").innerHTML = "Price: $$$";
+var addy2 = window.document.getElementById("addy2").innerHTML = "Adress: 525 Kapahulu Ave, Honolulu, HI 96815";
 //3. Ramen Nakamura
 /*Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless.
 
@@ -23,7 +24,10 @@ You will need to create a new div element with an id of "hours3". Inside this di
 Hours: 6pm - 12am Sun - Sat
 
 Append this div element to the div id "text3"*/
-
+var innerDiv = document.createElement('div');
+innerDiv.id = 'hours3';
+innerDiv.innerHTML = "Hours: 6pm - 12am Sun - Sat";
+text3.appendChild(innerDiv);
 
 //4. Kam Bowl
 /*Kam Bowl got no spare time to update their info and business is suffering! Help them regain their kingpin status again.
@@ -32,21 +36,21 @@ Create a new div element with an id of "price4". Inside this div element, give i
 
 Price: $$$
 
-Append this element to the div with the id of 
+Append this element to the div with the id of
 "text4"*/
 
 /*Create a new div element with an id of "addy4". Inside this div element, give it the following info:
 
 Address: 1620 N. School St, Honolulu, HI 96817
 
-Append this element to the div with the id of 
+Append this element to the div with the id of
 "text4"*/
 
 /*Create a new div element with an id of "hours4". Inside this div element, give it the following info:
 
 Hours: 9am - 10pm Sun - Sat
 
-Append this element to the div with the id of 
+Append this element to the div with the id of
 "text4"
 */
 
