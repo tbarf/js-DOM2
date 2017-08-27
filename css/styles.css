@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body{
   font-family: 'Titillium Web', sans-serif;
 }
@@ -39,24 +46,24 @@ form {
   display: inline;
   margin-left: 20px;
   border-left: 1px solid black;
-  padding-left: 15px; 
+  padding-left: 15px;
 }
- 
+
 .ranking:hover{
   color: red;
 }
 
 
-#text1, #text2, #text3, #text4, #text5{ 
+#text1, #text2, #text3, #text4, #text5{
   margin-left: 175px;
-  margin-top: -145px;  
+  /*margin-top: -145px;*/
 }
 
 #pic1, #pic2, #pic3, #pic4, #pic5{
   width: 150px;
   height: 150px;
   border-radius: 10px;
- 
+
 }
 
 
@@ -75,4 +82,17 @@ form {
 #comment1, #comment2, #comment3, #comment4, #comment5{
   margin-left: 88px;
   margin-top: -68px;
+}
+
+#update1,#update2,#update3,#update4,#update5{
+ margin-left: 88px;
+  margin-top: -68px;
+}
+
+#pic5{
+  margin-bottom: 50px
+}
+
+#user4{
+  padding-bottom: 100px;
 }
